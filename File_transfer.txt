@@ -1,0 +1,26 @@
+
+#transfer to direct and rcs1 folder under submit. -- assignment1and2
+
+#Changing directory to submit folder
+cd /usr/local/labs/HDL/current/ge79car/submit
+
+
+Execute the commands here
+ge79car@prakt8:~/media/disk/_cygdrive_C_Users_abhis_Xil_proj_submit$
+
+
+
+
+Submit to direct folder
+cp –r /home/ge79car/media/disk/_cygdrive_C_Users_abhis_Xil_proj_submit/direct /usr/local/labs/HDL/current/ge79car/submit
+
+
+
+Submit to RCS1 folder
+cp –r /home/ge79car/media/disk/_cygdrive_C_Users_abhis_Xil_proj_submit/rcs1 /usr/local/labs/HDL/current/ge79car/submit
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------
