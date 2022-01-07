@@ -21,7 +21,7 @@ IDEA has been and is optionally available for use with Pretty Good Privacy (PGP)
 IDEA has been succeeded by the IDEA NXT algorithm, itself once known as FOX.
 ```
 
-![Alt text](https://github.com/AbhishekSengupta7/VHDL/blob/master/idea.PNG?raw=true "Optional Title")
+![Alt text](https://github.com/AbhishekSengupta7/IDEA-VHDL/blob/main/idea.PNG?raw=true "Optional Title")
 
 
 ### More about IDEA :
