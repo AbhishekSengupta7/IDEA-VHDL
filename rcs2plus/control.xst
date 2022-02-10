@@ -1,0 +1,5 @@
+set -tmpdir "/home/ise/Xil_proj/submit/rcs2plus/xst/projnav.tmp"
+set -xsthdpdir "/home/ise/Xil_proj/submit/rcs2plus/xst"
+elaborate
+-ifn control.prj
+-ifmt mixed

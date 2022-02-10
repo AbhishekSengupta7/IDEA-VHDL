@@ -1,0 +1,10 @@
+Command line:
+   tb_keygenerator_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  40928
+
+Sun Jan  9 17:06:47 2022
+
+
+ Elaboration Time: 0.13 sec

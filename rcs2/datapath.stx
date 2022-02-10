@@ -1,0 +1,54 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /home/ise/Xil_proj/submit/rcs2/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.00 secs
+ 
+--> 
+Parameter xsthdpdir set to /home/ise/Xil_proj/submit/rcs2/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.00 secs
+ 
+--> 
+WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/ise/Xil_proj/submit/rcs2/mulop.vhd" in Library work.
+Entity <mulop> compiled.
+Entity <mulop> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "/home/ise/Xil_proj/submit/rcs2/addop.vhd" in Library work.
+Entity <addop> compiled.
+Entity <addop> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "/home/ise/Xil_proj/submit/rcs2/xorop.vhd" in Library work.
+Entity <xorop> compiled.
+Entity <xorop> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "/home/ise/Xil_proj/submit/rcs2/mux4x1.vhd" in Library work.
+Entity <mux4x1> compiled.
+Entity <mux4x1> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "/home/ise/Xil_proj/submit/rcs1/register_16.vhd" in Library work.
+Entity <register_16> compiled.
+Entity <register_16> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "/home/ise/Xil_proj/submit/rcs2/datapath.vhd" in Library work.
+Entity <datapath> compiled.
+Entity <datapath> (Architecture <Behavioral>) compiled.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.00 secs
+ 
+--> 
+
+
+Total memory usage is 567868 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,28 @@
+Command line:
+   tb_clockedround_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  45603
+
+Wed Feb  9 15:40:58 2022
+
+
+ Elaboration Time: 0.12 sec
+
+ Current Memory Usage: 199.807 Meg
+
+ Total Signals          : 181
+ Total Nets             : 660
+ Total Signal Drivers   : 49
+ Total Blocks           : 26
+ Total Primitive Blocks : 23
+ Total Processes        : 32
+ Total Traceable Variables  : 11
+ Total Scalar Nets and Variables : 1039
+
+ Total Simulation Time: 0.18 sec
+
+ Current Memory Usage: 277.406 Meg
+
+Wed Feb  9 15:41:18 2022
+

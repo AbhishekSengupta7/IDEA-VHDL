@@ -1,0 +1,12 @@
+EN idea NULL /home/ise/Xil_proj/submit/direct/idea.vhd sub00/vhpl10 1641136176
+AR addop behavioral /home/ise/Xil_proj/submit/direct/addop.vhd sub00/vhpl01 1641136169
+EN mulop NULL /home/ise/Xil_proj/submit/direct/mulop.vhd sub00/vhpl02 1641136166
+EN trafo NULL /home/ise/Xil_proj/submit/direct/trafo.vhd sub00/vhpl04 1641136174
+AR round behavioral /home/ise/Xil_proj/submit/direct/round.vhd sub00/vhpl09 1641136173
+EN addop NULL /home/ise/Xil_proj/submit/direct/addop.vhd sub00/vhpl00 1641136168
+AR trafo behavioral /home/ise/Xil_proj/submit/direct/trafo.vhd sub00/vhpl05 1641136175
+EN round NULL /home/ise/Xil_proj/submit/direct/round.vhd sub00/vhpl08 1641136172
+EN xorop NULL /home/ise/Xil_proj/submit/direct/xorop.vhd sub00/vhpl06 1641136170
+AR mulop behavioral /home/ise/Xil_proj/submit/direct/mulop.vhd sub00/vhpl03 1641136167
+AR idea structural /home/ise/Xil_proj/submit/direct/idea.vhd sub00/vhpl11 1641136177
+AR xorop behavioral /home/ise/Xil_proj/submit/direct/xorop.vhd sub00/vhpl07 1641136171

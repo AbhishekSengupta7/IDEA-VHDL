@@ -1,0 +1,10 @@
+Command line:
+   tb_idea_rcs2plus_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  40975
+
+Wed Feb  9 15:44:42 2022
+
+
+ Elaboration Time: 0.15 sec

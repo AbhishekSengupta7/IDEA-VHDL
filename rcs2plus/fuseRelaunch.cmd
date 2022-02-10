@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/ise/Xil_proj/submit/rcs2plus/tb_idea_rcs2plus_isim_beh.exe" -prj "/home/ise/Xil_proj/submit/rcs2plus/tb_idea_rcs2plus_beh.prj" "work.tb_idea_rcs2plus" 

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="idea_rcs2.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="clockedround.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="clockedround.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="clockedround.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="datapath.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="datapath.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="datapath.xst"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="idea_rcs2.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="idea_rcs2.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="idea_rcs2.xst"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="roundcounter.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="roundcounter.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="roundcounter.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_clockedround_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_clockedround_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_clockedround_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_clockedround_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_control_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_control_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_idea_rcs2_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_mux4x1_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_mux4x1_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_roundcounter_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="tb_roundcounter_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="tb_roundcounter_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="tb_roundcounter_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1643106638" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1643106638">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1644421246" xil_pn:in_ck="1279948117542975538" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1644421245">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../rcs1/keygenerator.vhd"/>
+      <outfile xil_pn:name="../rcs1/mux2x1.vhd"/>
+      <outfile xil_pn:name="../rcs1/register_16.vhd"/>
+      <outfile xil_pn:name="addop.vhd"/>
+      <outfile xil_pn:name="clk_div.vhd"/>
+      <outfile xil_pn:name="clockedround.vhd"/>
+      <outfile xil_pn:name="control.vhd"/>
+      <outfile xil_pn:name="datapath.vhd"/>
+      <outfile xil_pn:name="idea_com.vhd"/>
+      <outfile xil_pn:name="idea_com_inner.vhd"/>
+      <outfile xil_pn:name="idea_rcs2.vhd"/>
+      <outfile xil_pn:name="keygenerator.vhd"/>
+      <outfile xil_pn:name="mulop.vhd"/>
+      <outfile xil_pn:name="mux2x1.vhd"/>
+      <outfile xil_pn:name="mux4x1.vhd"/>
+      <outfile xil_pn:name="roundcounter.vhd"/>
+      <outfile xil_pn:name="rxcver.vhd"/>
+      <outfile xil_pn:name="tb_clockedround.vhd"/>
+      <outfile xil_pn:name="tb_control.vhd"/>
+      <outfile xil_pn:name="tb_idea_rcs2.vhd"/>
+      <outfile xil_pn:name="tb_mux4x1.vhd"/>
+      <outfile xil_pn:name="tb_roundcounter.vhd"/>
+      <outfile xil_pn:name="txmit.vhd"/>
+      <outfile xil_pn:name="uart.vhd"/>
+      <outfile xil_pn:name="xorop.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1644421246" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="540922504410839080" xil_pn:start_ts="1644421246">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1644421246" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="4134803180321333290" xil_pn:start_ts="1644421246">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1643106638" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-5919875462312676356" xil_pn:start_ts="1643106638">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1644421246" xil_pn:in_ck="1279948117542975538" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1644421246">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../rcs1/keygenerator.vhd"/>
+      <outfile xil_pn:name="../rcs1/mux2x1.vhd"/>
+      <outfile xil_pn:name="../rcs1/register_16.vhd"/>
+      <outfile xil_pn:name="addop.vhd"/>
+      <outfile xil_pn:name="clk_div.vhd"/>
+      <outfile xil_pn:name="clockedround.vhd"/>
+      <outfile xil_pn:name="control.vhd"/>
+      <outfile xil_pn:name="datapath.vhd"/>
+      <outfile xil_pn:name="idea_com.vhd"/>
+      <outfile xil_pn:name="idea_com_inner.vhd"/>
+      <outfile xil_pn:name="idea_rcs2.vhd"/>
+      <outfile xil_pn:name="keygenerator.vhd"/>
+      <outfile xil_pn:name="mulop.vhd"/>
+      <outfile xil_pn:name="mux2x1.vhd"/>
+      <outfile xil_pn:name="mux4x1.vhd"/>
+      <outfile xil_pn:name="roundcounter.vhd"/>
+      <outfile xil_pn:name="rxcver.vhd"/>
+      <outfile xil_pn:name="tb_clockedround.vhd"/>
+      <outfile xil_pn:name="tb_control.vhd"/>
+      <outfile xil_pn:name="tb_idea_rcs2.vhd"/>
+      <outfile xil_pn:name="tb_mux4x1.vhd"/>
+      <outfile xil_pn:name="tb_roundcounter.vhd"/>
+      <outfile xil_pn:name="txmit.vhd"/>
+      <outfile xil_pn:name="uart.vhd"/>
+      <outfile xil_pn:name="xorop.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1644421254" xil_pn:in_ck="1279948117542975538" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-3479264785349786574" xil_pn:start_ts="1644421246">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="tb_clockedround_beh.prj"/>
+      <outfile xil_pn:name="tb_clockedround_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1644421254" xil_pn:in_ck="-4763848394995820675" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="7989480760383499359" xil_pn:start_ts="1644421254">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="tb_clockedround_isim_beh.wdb"/>
+    </transform>
+  </transforms>
+
+</generated_project>

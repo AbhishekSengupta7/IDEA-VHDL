@@ -1,0 +1,8 @@
+vhdl work "/home/ise/Xil_proj/submit/rcs2/xorop.vhd"
+vhdl work "/home/ise/Xil_proj/submit/rcs2/mux4x1.vhd"
+vhdl work "/home/ise/Xil_proj/submit/rcs2/mulop.vhd"
+vhdl work "/home/ise/Xil_proj/submit/rcs2/addop.vhd"
+vhdl work "/home/ise/Xil_proj/submit/rcs1/register_16.vhd"
+vhdl work "/home/ise/Xil_proj/submit/rcs2/datapath.vhd"
+vhdl work "/home/ise/Xil_proj/submit/rcs2/control.vhd"
+vhdl work "/home/ise/Xil_proj/submit/rcs2/clockedround.vhd"

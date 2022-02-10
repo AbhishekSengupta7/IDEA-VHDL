@@ -1,0 +1,28 @@
+Command line:
+   tb_mulop_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  55245
+
+Fri Jan  7 01:42:46 2022
+
+
+ Elaboration Time: 0.08 sec
+
+ Current Memory Usage: 198.717 Meg
+
+ Total Signals          : 12
+ Total Nets             : 166
+ Total Signal Drivers   : 9
+ Total Blocks           : 5
+ Total Primitive Blocks : 4
+ Total Processes        : 7
+ Total Traceable Variables  : 11
+ Total Scalar Nets and Variables : 545
+
+ Total Simulation Time: 0.1 sec
+
+ Current Memory Usage: 276.316 Meg
+
+Fri Jan  7 01:43:25 2022
+

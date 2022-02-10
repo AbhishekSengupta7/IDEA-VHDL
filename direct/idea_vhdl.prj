@@ -1,0 +1,6 @@
+vhdl work "/home/ise/Xil_proj/submit/direct/xorop.vhd"
+vhdl work "/home/ise/Xil_proj/submit/direct/mulop.vhd"
+vhdl work "/home/ise/Xil_proj/submit/direct/addop.vhd"
+vhdl work "/home/ise/Xil_proj/submit/direct/trafo.vhd"
+vhdl work "/home/ise/Xil_proj/submit/direct/round.vhd"
+vhdl work "/home/ise/Xil_proj/submit/direct/idea.vhd"

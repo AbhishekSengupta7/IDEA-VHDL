@@ -1,0 +1,37 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/ise/Xil_proj/submit/rcs2/tb_clockedround_isim_beh.exe -prj /home/ise/Xil_proj/submit/rcs2/tb_clockedround_beh.prj work.tb_clockedround 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/Xil_proj/submit/rcs2/xorop.vhd" into library work
+Parsing VHDL file "/home/ise/Xil_proj/submit/rcs2/mux4x1.vhd" into library work
+Parsing VHDL file "/home/ise/Xil_proj/submit/rcs2/mulop.vhd" into library work
+Parsing VHDL file "/home/ise/Xil_proj/submit/rcs2/addop.vhd" into library work
+Parsing VHDL file "/home/ise/Xil_proj/submit/rcs2/../rcs1/register_16.vhd" into library work
+Parsing VHDL file "/home/ise/Xil_proj/submit/rcs2/datapath.vhd" into library work
+Parsing VHDL file "/home/ise/Xil_proj/submit/rcs2/control.vhd" into library work
+Parsing VHDL file "/home/ise/Xil_proj/submit/rcs2/clockedround.vhd" into library work
+Parsing VHDL file "/home/ise/Xil_proj/submit/rcs2/tb_clockedround.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 97108 KB
+Fuse CPU Usage: 1760 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity mulop [mulop_default]
+Compiling architecture behavioral of entity addop [addop_default]
+Compiling architecture behavioral of entity xorop [xorop_default]
+Compiling architecture behavioral of entity mux4x1 [mux4x1_default]
+Compiling architecture behavioral of entity register_16 [register_16_default]
+Compiling architecture behavioral of entity datapath [datapath_default]
+Compiling architecture behavioral of entity control [control_default]
+Compiling architecture structural of entity clockedround [clockedround_default]
+Compiling architecture behavior of entity tb_clockedround
+Time Resolution for simulation is 1ps.
+Compiled 21 VHDL Units
+Built simulation executable /home/ise/Xil_proj/submit/rcs2/tb_clockedround_isim_beh.exe
+Fuse Memory Usage: 112424 KB
+Fuse CPU Usage: 2120 ms
+GCC CPU Usage: 1090 ms

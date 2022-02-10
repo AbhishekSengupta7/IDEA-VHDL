@@ -1,0 +1,58 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /home/ise/Xil_proj/submit/rcs1/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.00 secs
+ 
+--> 
+Parameter xsthdpdir set to /home/ise/Xil_proj/submit/rcs1/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.00 secs
+ 
+--> 
+WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "/home/ise/Xil_proj/submit/rcs1/mulop.vhd" in Library work.
+Architecture behavioral of Entity mulop is up to date.
+Compiling vhdl file "/home/ise/Xil_proj/submit/rcs1/addop.vhd" in Library work.
+Architecture behavioral of Entity addop is up to date.
+Compiling vhdl file "/home/ise/Xil_proj/submit/rcs1/xorop.vhd" in Library work.
+Architecture behavioral of Entity xorop is up to date.
+Compiling vhdl file "/home/ise/Xil_proj/submit/rcs1/mux2x1.vhd" in Library work.
+Architecture behavioral of Entity mux2x1 is up to date.
+Compiling vhdl file "/home/ise/Xil_proj/submit/rcs1/control.vhd" in Library work.
+Architecture behavioral of Entity control is up to date.
+Compiling vhdl file "/home/ise/Xil_proj/submit/rcs1/keygenerator.vhd" in Library work.
+Architecture behavioral of Entity keygenerator is up to date.
+Compiling vhdl file "/home/ise/Xil_proj/submit/rcs1/round.vhd" in Library work.
+Architecture behavioral of Entity round is up to date.
+Compiling vhdl file "/home/ise/Xil_proj/submit/rcs1/register_16.vhd" in Library work.
+Architecture behavioral of Entity register_16 is up to date.
+Compiling vhdl file "/home/ise/Xil_proj/submit/rcs1/trafo.vhd" in Library work.
+Architecture behavioral of Entity trafo is up to date.
+Compiling vhdl file "/home/ise/Xil_proj/submit/rcs1/idea_single.vhd" in Library work.
+WARNING:HDLParsers:3530 - Time stamp of file "/home/ise/Xil_proj/submit/rcs1/idea_single.vhd" is newer than current system time.
+Entity <idea_single> compiled.
+Entity <idea_single> (Architecture <Structural>) compiled.
+
+
+Total REAL time to Xst completion: 2.00 secs
+Total CPU time to Xst completion: 0.00 secs
+ 
+--> 
+
+
+Total memory usage is 471844 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/ise/Xil_proj/submit/rcs2/tb_clockedround_isim_beh.exe" -prj "/home/ise/Xil_proj/submit/rcs2/tb_clockedround_beh.prj" "work.tb_clockedround" 
