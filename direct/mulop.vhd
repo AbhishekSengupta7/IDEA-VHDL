@@ -55,29 +55,29 @@ begin
 			temp2 <= '0' & I_2;
 			
 			if (I_1 = x"0000") then
-				temp1 <= "10000000000000000";  --value set to 2.16 since original input is 0
+				temp1 <= "10000000000000000";  --value set to 2.16 since original input is 0, has 17 bits
 			end if;
 			
 			if (I_2 = x"0000") then
-				temp2 <= "10000000000000000";  --value set to 2.16 since original input is 0
+				temp2 <= "10000000000000000";  --value set to 2.16 since original input is 0, has 17 bits
 			
 			end if;
 		end process;
 			
 			
 			temp3 <= temp1*temp2;
-			mod_output <= temp3(15 downto 0);  
-			quotient <= temp3(32 downto 16);
+			mod_output <= temp3(15 downto 0);  --16 bits
+			quotient <= temp3(32 downto 16);   --17 bits
 
 
    processout: process(mod_output,quotient)	
 		begin	
 			     if (mod_output >= quotient) then
-				  temp4 <= ('0' & mod_output)-quotient;
+				  temp4 <= ('0' & mod_output)-quotient;  --'0' & mod_output to make it 17 bits, same as quotient
 				
               else			
 				  temp4 <= ('0' & mod_output)-quotient+"10000000000000001";				
-				  
+				                                          --2.16 + 1 
 			end if;
 			
 		end process;

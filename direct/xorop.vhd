@@ -38,10 +38,9 @@ end xorop;
 architecture Behavioral of xorop is
 
 begin
-
 	process(I1, I2)
-   begin
+        begin
 	    O <= I1 xor I2;
-   end process;
+        end process;
 end Behavioral;
 
